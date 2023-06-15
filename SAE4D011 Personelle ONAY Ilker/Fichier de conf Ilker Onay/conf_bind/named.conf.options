@@ -1,0 +1,6 @@
+options {
+	allow-query {any;};
+	allow-query-cache {any;};
+        directory "/var/cache/bind";
+        forwarders {8.8.8.8;8.8.4.4;};
+};
